@@ -26,7 +26,7 @@
 ******************************************************/         
     //stagiaire
           $idStagiaire=5;//récupéré par la session en cours 
-          
+
           
     //Periode
             //idPeriode null si premier formulaire pas encore remplie récp cookies si deja rempli
@@ -324,7 +324,7 @@ if (isset($_POST['validerTuteur']) OR isset($_POST['modifierTuteur']) OR isset($
 ******************************************************/         
       $template = $twig->loadTemplate('stagiaire.twig');    
            echo $template->render(array(
- 
+
             //Periode
             'idPeriode'=>$idPeriode,
             'dateDebut'=>$dateDebut,
