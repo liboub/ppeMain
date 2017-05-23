@@ -1,0 +1,45 @@
+<div id='form_entreprise_complete' class="form_entreprise_complete form-horizontal">
+    <h1>Information de l'entreprise</h1>
+
+    <form action="stagiaire.php" method="post" id="form_entreprise">
+        <div class="form-group">
+            <label class="col-lg-2">Raison Sociale</label>
+            <input type="text" name="nom" value="{{nom}}">
+        </div>
+        <div class="form-group">
+            <label class="col-lg-2">Numéro</label>
+            <input type="text" name="adnum" value="{{adnum}}">
+        </div>
+        <div class="form-group">
+            <label class="col-lg-2">Rue</label>
+            <input type="text" name="adrue" value="{{adrue}}">
+        </div>
+        <div class="form-group">
+            <label class="col-lg-2">Code Postal</label>
+            <input type="text" name="adcp" value="{{adcp}}">
+        </div>
+        <div class="form-group">
+            <label class="col-lg-2">Ville</label>
+            <input type="text" name="adville" value="{{adville}}">
+        </div>
+        <div class="form-group">
+            <label class="col-lg-2">Tel</label>
+            <input type="text" name="tel" value="{{tel}}">
+        </div>
+        <div class="form-group">
+            <label class="col-lg-2">Mail</label>
+            <input type="text" name="mail" value="{{mail}}">
+        </div>
+        <div class="form-group">
+            <label class="col-lg-2">Siret</label>
+            <input type="text" name="siret" value="{{siret}}">
+        </div>
+        <div class="form-group">
+            <label class="col-lg-2">APE</label>
+            <input type="text" name="ape" value="{{ape}}">
+        </div>
+        <button name="form_entreprise_modifier" type="submit" class="btn btn-default">Modifier</button>
+        <button name="valider" type="submit" class="btn btn-default">Valider</button>
+        
+    </form>
+</div>

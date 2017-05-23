@@ -1,0 +1,23 @@
+{# empty Twig template #}
+
+
+    <form action="stagiaire.php" method="post" id="modif_tuteur" class="modif_tuteur">
+        <div class="form-group">
+            <label>Nom</label>
+            <input type="text" name="nom" value='{{nomTuteur}}'>
+        </div>
+        <div class="form-group">
+            <label>Prénom</label>
+            <input type="text" name="prenom" value='{{prenomTuteur}}'>
+        </div>
+        <div class="form-group">
+            <label>Couriel</label>
+            <input type="text" name="mail" value='{{mailTuteur}}'>
+        </div>
+        <div class="form-group">
+            <label>Tel</label>
+            <input type="text" name="tel" value='{{telTuteur}}'>
+        </div>
+        <button name="validerTuteur" type="submit" class="btn btn-default">Valider</button>
+        <button name="modifierTuteur" type="submit" class="btn btn-default">Modifier</button> 
+    </form>

@@ -1,0 +1,23 @@
+table {
+    border-collapse: collapse;
+	width:300px;
+	  margin-left: 0;
+   
+}
+table, th, td {
+    border: 1px solid black ;
+}
+td {
+	vertical-align:middle;
+	text-align: center;
+}
+h1 {
+	text-align:left;
+}
+tr:nth-child(even) {
+	 background-color: lightsteelblue;
+}
+tr:nth-child(odd) {
+	background-color: Gainsboro ;}
+	
+
