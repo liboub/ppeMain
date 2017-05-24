@@ -1,0 +1,212 @@
+format 76
+
+classcanvas 128002 class_ref 128002 // Stagiaire
+  class_drawing_mode default show_context_mode default show_stereotype_properties default
+  xyz 153.953 61.986 2000
+end
+classcanvas 128130 class_ref 128130 // Administrateur
+  class_drawing_mode default show_context_mode default show_stereotype_properties default
+  xyz 957.24 261.448 2000
+end
+classcanvas 128258 class_ref 128258 // formateur
+  class_drawing_mode default show_context_mode default show_stereotype_properties default
+  xyz 51.775 494.975 2000
+end
+classcanvas 128386 class_ref 128386 // Tuteur
+  class_drawing_mode default show_context_mode default show_stereotype_properties default
+  xyz 984.985 54.874 2000
+end
+usecasecanvas 128514 usecase_ref 128002 // Créer periode
+  xyzwh 259.8 206.6 3005 64 32 label_xy 324 228
+end
+usecasecanvas 128770 usecase_ref 128258 // Créer utilisateur
+  xyzwh 629.8 126.6 3005 64 32 label_xy 628 161
+end
+usecasecanvas 128898 usecase_ref 128386 // Créer_tuteur_entreprise
+  xyzwh 335.6 38.4 3005 64 32 label_xy 306 23
+end
+usecasecanvas 129282 usecase_ref 128770 // Supprimer
+  xyzwh 618.2 479.2 3005 64 32 label_xy 675 474
+end
+usecasecanvas 129410 usecase_ref 128898 // Créer_entreprise
+  xyzwh 327.4 130.8 3005 64 32 label_xy 375 169
+end
+usecasecanvas 131714 usecase_ref 130434 // Afficher/Filtrer
+  xyzwh 592.4 230.8 3005 64 32 label_xy 590 214
+end
+usecasecanvas 133634 usecase_ref 131074 // Authentifier
+  xyzwh 276 309.6 3005 91 73 label_xy 291 338
+end
+usecasecanvas 141826 usecase_ref 138242 // Modifier periode
+  xyzwh 58.2 154.2 0 64 32 label_xy 33.5 190.5
+end
+usecasecanvas 142850 usecase_ref 138242 // Modifier periode
+  xyzwh 164.7 505.6 3005 64 32 label_xy 171.5 479
+end
+usecasecanvas 144258 usecase_ref 138370 // Tout
+  xyzwh 15.6 75.8 3005 64 32 label_xy 39 59
+end
+usecasecanvas 144514 usecase_ref 138498 // Compte rendu Formateur
+  xyzwh 354.7 582 3005 64 32 label_xy 329 615
+end
+usecasecanvas 145282 usecase_ref 138754 // Compte rendu Entreprise
+  xyzwh 801.1 76.6 3010 64 32 label_xy 776 109
+end
+usecasecanvas 145538 usecase_ref 138882 // Date de visite
+  xyzwh 354.6 512.8 3010 64 32 label_xy 354 499
+end
+usecasecanvas 146818 usecase_ref 139010 // Stagiaire
+  xyzwh 635.6 635.8 3005 64 32 label_xy 648 667
+end
+usecasecanvas 146946 usecase_ref 139138 // Entreprise
+  xyzwh 725.6 614.2 3005 64 32 label_xy 732 647
+end
+usecasecanvas 147074 usecase_ref 139266 // Tuteur_entreprise
+  xyzwh 802.4 565 3005 64 32 label_xy 792 597
+end
+usecasecanvas 147202 usecase_ref 139394 // Tuteur Formateur
+  xyzwh 524.8 631.6 3005 64 32 label_xy 516 666
+end
+usecasecanvas 147970 usecase_ref 139522 // Modif Entreprise
+  xyzwh 990.6 493.7 3005 64 32 label_xy 985 525
+end
+usecasecanvas 148098 usecase_ref 139650 // Modif Tuteur Formateur
+  xyzwh 1002.7 411.3 3005 64 32 label_xy 981 444
+end
+usecasecanvas 148226 usecase_ref 139778 // Affecter tuteur formateur
+  xyzwh 1008.2 347.9 3010 64 32 label_xy 1006 381
+end
+usecasecanvas 148354 usecase_ref 139906 // Modifier
+  xyzwh 811.1 456.3 3005 64 32 label_xy 823 486
+end
+usecasecanvas 149122 usecase_ref 140034 // Entrepise (géographique) 
+  xyzwh 524 316.6 3005 64 32 label_xy 495 348
+end
+usecasecanvas 149250 usecase_ref 140162 // Satges (stagiaire, Etat visite, Thème)
+  xyzwh 670.6 314.6 3005 64 32 label_xy 640 346
+end
+usecasecanvas 149634 usecase_ref 140290 // Créer stagiaire
+  xyzwh 544.8 68.4 3005 64 32 label_xy 546 50
+end
+usecasecanvas 149762 usecase_ref 140418 // Créer Tuteur Formateur
+  xyzwh 658.2 50.8 3005 64 32 label_xy 657 36
+end
+usecasecanvas 150146 usecase_ref 140546 // Créer Login MP Tuteur Entreprise
+  xyzwh 962.7 574.5 3005 64 32 label_xy 915 608
+end
+usecasecanvas 153218 usecase_ref 147074 // Afficher/Filtrer  
+  xyzwh 140.6 221.6 3005 64 32 label_xy 172 207
+end
+usecasecanvas 153602 usecase_ref 147202 // Afficher et Filtrer
+  xyzwh 53.5 389.7 3005 64 32 label_xy 101 416
+end
+usecasecanvas 154370 usecase_ref 147330 // Visite effectuée
+  xyzwh 352.2 434.5 3015 64 32 label_xy 345 467
+end
+usecasecanvas 159106 usecase_ref 153858 // Envoie un document a remplir
+  xyzwh 990.6 179.5 3005 64 32 label_xy 953 212
+end
+line 132994 ----
+  from ref 128002 z 3006 to ref 128514
+simplerelationcanvas 133250 simplerelation_ref 128770
+  from ref 129410 z 3006 stereotype "<<extend>>" xyz 311 185 3000 to ref 128514
+end
+line 133762 ---- decenter_end 859
+  from ref 128130 z 3006 to ref 128770
+line 140674 ----
+  from ref 131714 z 3006 to ref 128130
+simplerelationcanvas 141314 simplerelation_ref 136066
+  from ref 131714 z 3006 stereotype "<<include>>" xyz 486.5 277 3000 to ref 133634
+end
+simplerelationcanvas 141570 simplerelation_ref 136322
+  from ref 129282 z 3006 stereotype "<<include>>" xyz 473.5 419 3000 to ref 133634
+end
+simplerelationcanvas 141698 simplerelation_ref 136450
+  from ref 128770 z 3006 stereotype "<<include>>" xyz 481.5 228 3000 to ref 133634
+end
+line 141954 ---- decenter_end 861
+  from ref 128002 z 3006 to ref 141826
+simplerelationcanvas 146434 simplerelation_ref 137858
+  from ref 128898 z 3006 stereotype "<<extend>>" xyz 335 99 3000 to ref 129410
+end
+simplerelationcanvas 148482 simplerelation_ref 138498
+  from ref 148354 z 3006 stereotype "<<include>>" xyz 558 407.5 3000 to ref 133634
+end
+line 151298 ----
+  from ref 128130 z 3006 to ref 148354
+line 151426 ----
+  from ref 128130 z 3006 to ref 129282
+simplerelationcanvas 153090 simplerelation_ref 146818
+  from ref 128514 z 3006 to ref 133634
+end
+line 153346 ----
+  from ref 128002 z 3006 to ref 153218
+simplerelationcanvas 153474 simplerelation_ref 146946
+  decenter_begin 527
+  from ref 153218 z 3006 to ref 133634
+end
+line 153730 ---- decenter_begin 587
+  from ref 153602 z 3006 to ref 128258
+simplerelationcanvas 153858 simplerelation_ref 147074
+  from ref 153602 z 3006 stereotype "<<include>>" xyz 167 374 3000 to ref 133634
+end
+simplerelationcanvas 153986 simplerelation_ref 147202
+  from ref 145538 z 3011 to ref 142850
+end
+simplerelationcanvas 154114 simplerelation_ref 147330
+  from ref 144514 z 3006 to ref 142850
+end
+simplerelationcanvas 154498 simplerelation_ref 147458
+  from ref 154370 z 3016 to ref 142850
+end
+simplerelationcanvas 154882 simplerelation_ref 147586
+  from ref 142850 z 3006 stereotype "<<include>>" xyz 220 442.5 3000 to ref 133634
+end
+line 155010 ----
+  from ref 142850 z 3006 to ref 128258
+simplerelationcanvas 155394 simplerelation_ref 147842
+  from ref 144258 z 3006 to ref 141826
+end
+simplerelationcanvas 155650 simplerelation_ref 147970
+  from ref 147202 z 3006 stereotype "<<extend>>" xyz 572 569 3000 to ref 129282
+end
+simplerelationcanvas 156546 simplerelation_ref 148354
+  from ref 146818 z 3006 stereotype "<<extend>>" xyz 629 570 3000 to ref 129282
+end
+simplerelationcanvas 156930 simplerelation_ref 148482
+  from ref 146946 z 3006 stereotype "<<extend>>" xyz 675 560 3000 to ref 129282
+end
+simplerelationcanvas 157442 simplerelation_ref 148738
+  from ref 147074 z 3006 stereotype "<<extend>>" xyz 713 536 3000 to ref 129282
+end
+simplerelationcanvas 157698 simplerelation_ref 148866
+  from ref 148226 z 3011 stereotype "<<extend>>" xyz 907 413 3000 to ref 148354
+end
+simplerelationcanvas 157826 simplerelation_ref 148994
+  from ref 148098 z 3006 stereotype "<<extend>>" xyz 908 445.5 3000 to ref 148354
+end
+simplerelationcanvas 157954 simplerelation_ref 149122
+  from ref 147970 z 3006 stereotype "<<extend>>" xyz 902 486.5 3000 to ref 148354
+end
+simplerelationcanvas 158082 simplerelation_ref 149250
+  from ref 150146 z 3006 stereotype "<<extend>>" xyz 890.5 528.5 3000 to ref 148354
+end
+simplerelationcanvas 158210 simplerelation_ref 149378
+  from ref 149122 z 3006 stereotype "<<extend>>" xyz 558 286 3000 to ref 131714
+end
+simplerelationcanvas 158338 simplerelation_ref 149506
+  from ref 149250 z 3006 stereotype "<<extend>>" xyz 633 285 3000 to ref 131714
+end
+simplerelationcanvas 158466 simplerelation_ref 149634
+  from ref 149634 z 3006 stereotype "<<extend>>" xyz 593 110.5 3000 to ref 128770
+end
+simplerelationcanvas 158722 simplerelation_ref 149762
+  from ref 149762 z 3006 stereotype "<<extend>>" xyz 646.5 102.5 3000 to ref 128770
+end
+line 158978 ----
+  from ref 145282 z 3011 label "redige" xyz 909.5 73.5 3000 to ref 128386
+line 159490 ----
+  from ref 159106 z 3006 to ref 128386
+line 159618 ----
+  from ref 159106 z 3006 to ref 128130
+end

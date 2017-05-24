@@ -1,0 +1,11 @@
+window_sizes 1600 837 291 1303 672 91
+diagrams
+  active  usecasediagram_ref 128002 // gestion_stage
+    1303 672 110 3 396 0
+end
+show_stereotypes
+selected usecasediagram_ref 128002 // gestion_stage
+open
+  usecase_ref 130562 // Générer_état_visite
+end
+end

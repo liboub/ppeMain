@@ -1,0 +1,11 @@
+window_sizes 1600 837 171 1423 728 35
+diagrams
+  active  usecasediagram_ref 128002 // gestion_stage
+    1423 728 100 3 0 0
+end
+show_stereotypes
+selected usecasediagram_ref 128002 // gestion_stage
+open
+  usecaseview_ref 128130 // gestion_stage
+end
+end
