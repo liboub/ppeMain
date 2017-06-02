@@ -1,0 +1,18 @@
+window_sizes 1600 837 375 1125 600 82
+diagrams
+  active  classdiagram_ref 128002 // diaClasseWeb
+    1219 679 140 4 180 0
+end
+show_stereotypes
+selected operation_ref 134402 // getTel
+open
+  class_ref 128002 // CBdd
+  class_ref 128130 // CControleurEntreprise
+  class_ref 128258 // CControleurPeriodeStage
+  class_ref 128386 // CControleurTuteur
+  class_ref 128514 // CEntreprise
+  class_ref 128642 // CPeriodeStage
+  class_ref 128770 // Ctableau
+  class_ref 128898 // CTuteur
+end
+end
