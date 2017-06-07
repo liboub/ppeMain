@@ -28,5 +28,21 @@ $formateur=$cControleurFormateur->unFormateur($periode->getIdFormateur());
 $tuteur=$cControleurTuteur->unTuteur($periode->getIdTuteur());
 
 
-echo 'date debut'.$periode->getDateDebut();
+echo 'date debut'.$periode->getDateDebut().'<br>';
+
+echo 'date nom entreprise'.$entreprise->getNom().'<br>';
+
+echo 'nom stagiare'.$stagiaire->getNom().'<br>';
+
+
+
+
+echo 'date debut'.$periode->getDateDebut().'<br>';
+
+echo 'date debut'.$periode->getDateDebut().'<br>';
+
+
+
+
+
 
