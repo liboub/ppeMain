@@ -1,0 +1,42 @@
+{# empty Twig template #} {% extends "layout.html.twig" %} {% block body %}
+
+
+<section class="row stagiaire">
+    <button class="btn btn-primary btn-lg btn-block" onclick="ajoutPeriode()">Ajouter une période</button>
+    <div id="ajoutPeriode" class="ajoutPeriode col-lg-12" style="{{display_ajoutPeriode}}">
+
+        <div id="periode" class="periode block col-lg-offset-1 col-lg-10" style="{{display_periode}}">
+            {% include 'formulaires/stagiaire_periode_date.twig' %}
+        </div>
+
+
+
+        <div id="entreprise" class="entreprise block col-lg-offset-1 col-lg-10" style="{{display_entreprise}}">
+            <p>entreprise</p>
+
+        </div>
+
+        <div id="tuteur" class="tutueur block col-lg-offset-1 col-lg-10" style="{{display_tuteur}}">
+            <p>tuteur</p>
+
+        </div>
+
+        <div id="fonction" class="fonction block col-lg-offset-1 col-lg-10" style="{{display_fonction}}">
+            <p>fonction</p>
+
+        </div>
+    </div>
+    <div class="formEntreprise col-lg-12">
+        <div class="formEntrepriseVide">
+        </div>
+        <div class="formEntrepriseComplete">
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+{% endblock %}
