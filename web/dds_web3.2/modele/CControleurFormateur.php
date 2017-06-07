@@ -15,7 +15,7 @@ class CControleurFormateur {
         $cBdd= new CBdd();
         $bdd=$cBdd->getConnection();
        
-       $q = $bdd->query('SELECT * FROM stagiaire WHERE id = '.$idFormateur.'');
+       $q = $bdd->query('SELECT * FROM formateur WHERE id = '.$idFormateur.'');
        $donnees = $q->fetch(PDO::FETCH_ASSOC);
        
        require_once 'CFormateur.php';
