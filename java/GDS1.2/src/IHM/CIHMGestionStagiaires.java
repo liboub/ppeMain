@@ -205,7 +205,7 @@ public class CIHMGestionStagiaires {
         public ihmAfficherStagiaire(){
             super();
             setTitle("Détail stagiaire");
-            setSize(600, 500);
+            setSize(400, 300);
             setLocationRelativeTo(null);
             this.setLayout(new BorderLayout());
             setDefaultCloseOperation(WindowConstants.DO_NOTHING_ON_CLOSE);
