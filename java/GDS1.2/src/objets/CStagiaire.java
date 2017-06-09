@@ -34,7 +34,7 @@ public class CStagiaire {
         this.mail = mail;
         this.login = login;
         this.password = password;
-        this.donneesTab = new String[4];
+        this.donneesTab = new String[6];
         donneesTab[0]=nom;
         donneesTab[1]=prenom;
         donneesTab[2]=mail;
