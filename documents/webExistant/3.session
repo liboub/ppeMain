@@ -1,0 +1,11 @@
+window_sizes 1800 945 450 1350 720 82
+diagrams
+  active  classdiagram_ref 128002 // diaClasseWeb
+    1344 789 100 4 0 0
+end
+show_stereotypes
+selected classdiagram_ref 128002 // diaClasseWeb
+open
+  classview_ref 128002 // classeWeb
+end
+end
